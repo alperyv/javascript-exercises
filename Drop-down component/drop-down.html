@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropDownLinks</title>
+    <link rel="stylesheet" href="/Drop-down component/drop-down.css">
+</head>
+<body id="body">
+
+    <header class="nav-bar" >
+        <nav id="nav" >
+            <div  id="logo">
+                <img class="logo" src="/Drop-down component/images/logom.png" alt="">
+            </div>
+            <ul>
+                <li><a href="#" class="menuLinks" id="a1">Home</a></li>
+                <li><a href="#" class="menuLinks" id="a2">Features</a></li>
+                <li><a id="a3" href="#" class="menuLinks">About</a></li>
+                <li><a id="a4" href="#" class="menuLinks">Contact</a></li>
+            </ul>
+                <img src="/Drop-down component/images/user.png" class="user-pic" onclick="dropDown()">
+
+            <div class="sub-wrap" id="subWrap">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="/Drop-down component/images/user.png" >
+                        <h2>Alper Yavuz</h2>
+                    </div>
+                    <hr>
+
+                    <a href="#"  id="aa1" class="sub-menu-links">
+                        <img src="/Drop-down component/images/profile.png" alt="">
+                        <p>Edit Profile</p>
+                        <span> > </span>
+                    </a>
+                    <a href="#" id="aa2" class="sub-menu-links">
+                        <img src="/Drop-down component/images/help.png" alt="">
+                        <p>Help</p>
+                        <span> > </span>
+                    </a>
+                    <a href="#" id="aa3" class="sub-menu-links">
+                        <img src="/Drop-down component/images/setting.png" alt="">
+                        <p>Settings</p>
+                        <span> > </span>
+                    </a>
+                    <a href="#" id="aa4" class="sub-menu-links">
+                        <img src="/Drop-down component/images/logout.png" alt="">
+                        <p>Log Out</p>
+                        <span> > </span>
+                    </a>
+
+                    <a href="#" id="aa5" class="sub-menu-links" onclick="changeTheme()">
+                        <img src="/Drop-down component/images/theme.png" alt="">
+                        <p>Change Theme</p>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <script src="/Drop-down component/drp-down.js"></script>
+</body>
+</html>
