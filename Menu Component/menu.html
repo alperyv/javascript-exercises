@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Menu Component/menu.css">
+  </head>
+  <body>
+
+    <main>
+
+        <div class="container mt-5">
+
+            <div class="row bg-dark">
+                <div class="col-sm-12">
+
+                    <span class="text-center">
+                        <h1 class="text-white">
+                            ToDo List
+                        </h1>
+                    </span>
+
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-11  mt-5 articles">
+                    <button class="article-button btn btn-light text-start"  onclick="CompletedOne()" id="task1">
+                        <input type="text" name="text" placeholder="Lütfen Görev Giriniz"  id="buttonOneHead" >
+
+                    </button>
+                </div>
+                <div class="col-sm-1 mt-5 articles">
+                    <button class="article-button-x  btn btn-danger text-center" onclick="DeleteOne()">Delete</button>
+                    <button class="article-button-x mt-1 btn btn-success text-center"
+                    onclick="DoneOne()">
+                        Done
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-11  mt-5 articles">
+                    <button class="article-button btn btn-light text-start"  onclick="CompletedOne()" id="task1">
+                        <input type="text"   id="buttonTwoHead" placeholder="Lütfen Görev Giriniz">
+                    </button>
+                </div>
+                <div class="col-sm-1 mt-5 articles">
+                    <button class="article-button-x  btn btn-danger text-center" onclick="DeleteTwo()">Delete</button>
+                    <button class="article-button-x mt-1 btn btn-success text-center"
+                    onclick="DoneTwo()">
+                        Done
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-11  mt-5 articles">
+                    <button class="article-button btn btn-light text-start"  onclick="CompletedOne()" id="task1">
+                        <input type="text"   id="buttonThreeHead" placeholder="Lütfen Görev Giriniz">
+                    </button>
+                </div>
+                <div class="col-sm-1 mt-5 articles">
+                    <button class="article-button-x  btn btn-danger text-center" onclick="DeleteThree()">Delete</button>
+                    <button class="article-button-x mt-1 btn btn-success text-center"
+                    onclick="DoneThree()">
+                        Done
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+    <script src="/Menu Component/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
