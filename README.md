@@ -9,6 +9,7 @@ This repo has my all javascript exercises, and I  want to show you.
 * Menu
 * Nav-Bar
 * Reviews
+* Nav-Bar Toggle
 
 
 Last components pic.
